@@ -1,0 +1,20 @@
+mode: set
+unit-tests/algoritimos/algotitmos.go:9.27,11.2 1 1
+unit-tests/algoritimos/algotitmos.go:14.46,16.15 2 1
+unit-tests/algoritimos/algotitmos.go:20.2,24.21 4 1
+unit-tests/algoritimos/algotitmos.go:28.2,29.18 2 1
+unit-tests/algoritimos/algotitmos.go:16.15,18.3 1 1
+unit-tests/algoritimos/algotitmos.go:24.21,26.3 1 0
+unit-tests/algoritimos/algotitmos.go:33.52,35.15 2 1
+unit-tests/algoritimos/algotitmos.go:39.2,42.18 4 1
+unit-tests/algoritimos/algotitmos.go:35.15,37.3 1 1
+unit-tests/algoritimos/algotitmos.go:46.34,49.17 3 1
+unit-tests/algoritimos/algotitmos.go:53.2,55.17 3 1
+unit-tests/algoritimos/algotitmos.go:59.2,59.38 1 1
+unit-tests/algoritimos/algotitmos.go:49.17,51.3 1 1
+unit-tests/algoritimos/algotitmos.go:55.17,57.3 1 1
+unit-tests/algoritimos/algotitmos.go:59.38,61.3 1 1
+unit-tests/algoritimos/algotitmos.go:61.8,63.3 1 1
+unit-tests/algoritimos/algotitmos.go:67.52,68.24 1 1
+unit-tests/algoritimos/algotitmos.go:71.2,71.13 1 1
+unit-tests/algoritimos/algotitmos.go:68.24,70.3 1 0

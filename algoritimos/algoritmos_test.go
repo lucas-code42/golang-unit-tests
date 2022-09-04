@@ -4,7 +4,21 @@ import (
 	"testing"
 )
 
-// comands: go test --cover (para mostrar a porcentagem de cobertura dos testes sobre as funções)
+// commands: go test --cover (Para mostrar a porcentagem de cobertura dos testes sobre as funções)
+// commands: go test --coverprofile cobertura.txt (Cria um arquivo de relatório com a sobre a cobertura de testes)
+// commands: go tool cover --func=cobertura.txt (Mostra no terminal uma descrição mais detalhada)
+
+/*
+OUTPUT:
+unit-tests/algoritimos/algotitmos.go:9:         Soma                            100.0%
+unit-tests/algoritimos/algotitmos.go:14:        Divisao                         90.0%
+unit-tests/algoritimos/algotitmos.go:33:        Multiplicacao                   100.0%
+unit-tests/algoritimos/algotitmos.go:46:        isFloat                         100.0%
+unit-tests/algoritimos/algotitmos.go:67:        impossivelDivisaoPorZero        66.7%
+total:                                          (statements)                    93.8%
+*/
+
+// commands: go tool cover --html=cobertura.txt (Gera um HTML mostrando onde falta cobertura de testes)
 
 // cenariosTesteSoma:  struct criada para testes da funcao Soma
 type cenariosTesteSoma struct {
