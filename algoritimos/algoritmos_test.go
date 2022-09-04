@@ -13,6 +13,9 @@ type cenariosTesteSoma struct {
 
 // TestSoma: Implementa a struct cenariosTesteSoma e gera os testes
 func TestSoma(t *testing.T) {
+	// usado para executar testes em paralelo
+	t.Parallel()
+
 	testes := []cenariosTesteSoma{
 		{
 			primeiroValor: 20,
@@ -43,6 +46,8 @@ type cenariosTesteDivisao struct {
 
 // TestDivisao: Implementa a struct cenariosTesteDivisao e gera os testes
 func TestDivisao(t *testing.T) {
+	t.Parallel()
+	
 	testes := []cenariosTesteDivisao{
 		{
 			primeiroValor: "10",
@@ -83,6 +88,8 @@ type cenariosTesteMultiplicacao struct {
 
 // TestMultiplicacao: Implementa a struct cenariosTesteMultiplicacao e gera testes
 func TestMultiplicacao(t *testing.T) {
+	t.Parallel()
+	
 	testes := []cenariosTesteMultiplicacao{
 		{
 			primeiroValor: "19",
