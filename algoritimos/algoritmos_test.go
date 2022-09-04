@@ -4,6 +4,8 @@ import (
 	"testing"
 )
 
+// comands: go test --cover (para mostrar a porcentagem de cobertura dos testes sobre as funções)
+
 // cenariosTesteSoma:  struct criada para testes da funcao Soma
 type cenariosTesteSoma struct {
 	primeiroValor int
